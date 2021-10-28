@@ -13,6 +13,10 @@ const StepThree = ({ fieldsStepThree, setFieldsStepThree, stepThreeData }) => {
     commercialOffice,
     commercialRetail,
     other,
+    name,
+    phoneNumber,
+    email,
+    country,
   } = fieldsStepThree;
   const handleCheckChange = (event) => {
     setFieldsStepThree({
@@ -23,8 +27,11 @@ const StepThree = ({ fieldsStepThree, setFieldsStepThree, stepThreeData }) => {
   console.log(fieldsStepThree);
   const handleSubmit = () => {
     stepThreeData(fieldsStepThree);
-
-    toast.success("Successfully Completed");
+    if (name !== "" && phoneNumber !== "" && email !== "" && country) {
+      toast.success("Successfully Completed");
+    } else {
+      toast.error("Please complete step one");
+    }
   };
   const handleClick = (name, singleFamily) => {
     setFieldsStepThree({
