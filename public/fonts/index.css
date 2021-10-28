@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "FontAwesome";
+
+  src: url("fontawesome-webfont.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates-Bold";
+  src: url("MontserratAlternates-Bold.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates-ExtraBold";
+  src: url("MontserratAlternates-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates-Medium";
+  src: url("MontserratAlternates-Medium.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates-MediumItalic";
+  src: url("MontserratAlternates-MediumItalic.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates-SemiBold";
+  src: url("MontserratAlternates-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Italic";
+  src: url("Montserrat-Italic.ttf");
+}
+@font-face {
+  font-family: "MontserratARegular";
+  src: url("MontserratAlternates-Regular.ttf");
+}
+@font-face {
+  font-family: "MontserRegular";
+  src: url("Montserrat-Regular.ttf");
+}
+
+.MontserABold {
+  font-family: "MontserratAlternates-Bold";
+}
+.MontserAExtraBold {
+  font-size: 20px;
+  font-family: "MontserratAlternates-ExtraBold";
+}
+.MontserAMedium {
+  font-family: "MontserratAlternates-Medium";
+}
+.MontserAMediumItalic {
+  font-family: "MontserratAlternates-MediumItalic";
+}
+.MontserASemiBold {
+  font-family: "MontserratAlternates-SemiBold";
+}
+.MontserSemiBold {
+  font-family: "Montserrat-SemiBold";
+}
+.MontserMedium {
+  font-family: "Montserrat-Medium";
+}
+.MontserExtraBold {
+  font-family: "Montserrat-ExtraBold";
+}
+.MontserItalic {
+  font-family: "Montserrat-Italic";
+}
+.MontserratARegular {
+  font-family: "MontserratARegular";
+}
+.MontserratRegular {
+  font-family: "MontserRegular";
+}

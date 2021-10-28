@@ -1,0 +1,468 @@
+.main_page {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.main_page-box {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.main_page-box-wrap {
+  position: relative;
+}
+
+.main_page-box-right {
+  background-color: white;
+}
+.main_page-box-left {
+  position: relative;
+  background-color: #28a0f4;
+}
+/* .main_page-box-right-btn {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 25px;
+  transform: translateX(-50%);
+} */
+.main_page-box-left-btn-icon {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  font-size: 0px;
+  top: 50%;
+  left: 0%;
+  z-index: 10;
+  transform: translateX(-50%);
+  color: black;
+  width: 50px;
+  height: 50px;
+  background: white !important;
+  padding: 16px 12px;
+  font-weight: 300;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main_page-box-right-btn-icon {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  font-size: 0px;
+  top: 50%;
+  right: 0%;
+  z-index: 10;
+  transform: translateX(50%);
+  color: black;
+  width: 50px;
+  height: 50px;
+  background: white !important;
+  padding: 16px 12px;
+  font-weight: 300;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main_page-box-left-btn-icon::before {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-size: 28px;
+  color: #28a0f4;
+  content: "\f104";
+  position: absolute;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  font-family: "FontAwesome";
+}
+.main_page-box-right-btn-icon::before {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-size: 28px;
+  color: #28a0f4;
+  content: "\f105";
+  position: absolute;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  font-family: "FontAwesome";
+}
+.step_count-text {
+  color: #a4aeb4;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.step_count-link {
+  text-decoration: none;
+}
+.step_count-link:hover {
+  color: #023a8d;
+}
+.step_count-link-arrow,
+.step_count-link-arrow-left {
+  width: 16px;
+  height: 16px;
+  fill: #0d6efd;
+}
+.quoteSizeColor {
+  width: 25px;
+  height: 18px;
+  fill: #2696e8;
+}
+.step_count-link-arrow:hover {
+  fill: #023a8d;
+}
+
+.step_count-link:hover .step_count-link-arrow {
+  fill: #023a8d;
+}
+/* contact_details */
+.contact_details,
+.investment_plans {
+  margin-bottom: 30px;
+}
+
+.contact_details h4,
+.investment_plans h4 {
+  font-size: 28px;
+  letter-spacing: 0.02em;
+}
+.contact_details h6,
+.investment_plans h6 {
+  font-size: 16px;
+
+  color: #a4aeb4;
+  letter-spacing: 0.02em;
+}
+
+/* Privacy */
+.privacy_text h4 {
+  font-size: 21;
+}
+.privacy_text h6 {
+  font-size: 16;
+  color: #a4aeb4;
+}
+.privacy_text-link {
+  font-size: 16px;
+  text-decoration: none;
+}
+.privacy_text-link:hover {
+  color: #023a8d;
+}
+.privacy_text-link:hover .step_count-link-arrow {
+  fill: #023a8d;
+}
+/* bottom buttons */
+
+.back_home {
+  font-size: 16px;
+  text-decoration: none;
+}
+.back_home:hover {
+  color: #023a8d;
+}
+.back_home:hover .step_count-link-arrow-left {
+  fill: #023a8d;
+}
+.custom_button-skip {
+  border: none;
+  width: 100% !important;
+  height: 100%;
+  color: #35a0ee;
+  padding: 12px 14px;
+  border-radius: 4px;
+  background-color: rgba(53, 160, 238, 0.1);
+}
+.custom_button-next,
+.custom_button-finish {
+  border: none;
+  width: 100% !important;
+  height: 100%;
+  color: white;
+  padding: 12px 14px;
+  border-radius: 4px;
+  background-color: #35a0ee;
+  box-shadow: 0px 0px 20px rgba(53, 160, 238, 0.25);
+}
+
+/* investment Plan */
+.investment_plans-topic {
+  font-size: 21px;
+  line-height: 28px;
+}
+
+/* accredited investor */
+.acc_investor h4 {
+  font-size: 21px;
+}
+/* check button */
+
+.MuiFormControlLabel-root {
+  border: 2px solid #d5d9dc;
+  border-radius: 4px;
+  width: 136px;
+}
+.MuiFormControlLabel-root:hover {
+  background-color: #f7fbff;
+}
+.MuiFormControlLabel-root.radioYes {
+  background-color: #f7fbff;
+  border: 2px solid #35a0ee;
+  border-radius: 4px;
+  width: 136px;
+}
+
+/* investment interest */
+
+.investment_interest-box {
+  width: 138px;
+  height: 148px;
+  background-color: #ffffff;
+  padding: 12px 0;
+}
+/* .interest_box-checked .investment_interest-box-wrapper {
+  background-color: #f6fbff;
+  border: 1.5px solid #35a0ee;
+  border-radius: 4px;
+} */
+.investment_interest-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  cursor: pointer;
+  border: 1.5px solid #d5d9dc;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.investment_interest-box-wrapperActive {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  justify-content: space-between;
+  background-color: #f6fbff;
+  border: 1.5px solid #35a0ee;
+}
+
+/* left side */
+
+.title {
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: center;
+}
+.title h4 {
+  font-weight: 800;
+}
+.title-left {
+  color: rgba(255, 255, 255, 1);
+}
+.title-right {
+  color: rgba(255, 255, 255, 0.5);
+}
+.founder_message {
+  position: relative;
+  background-color: white;
+}
+.founder_message::before {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  clip-path: polygon(0 0, 40% 0%, 40% 0%, 0% 20%);
+  background-color: #35a0ee;
+  opacity: 0.07;
+}
+.founder_message p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #a4aeb4;
+}
+.founder_message h4 {
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+.founder_message h5 {
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  color: #a4aeb4;
+}
+.founder_message h5 .massegeU {
+  letter-spacing: 0.02em;
+  color: black;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 24px;
+}
+.founder_message h5 .massegeP {
+  letter-spacing: 0.02em;
+  color: #2696e8;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 24px;
+}
+.message-box {
+  top: -28px;
+  left: -28px;
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  background-color: white;
+  box-shadow: 16px 12px 56px rgba(11, 29, 46, 0.15);
+  border-radius: 3px;
+}
+.progress_bar h4 {
+  font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.progress_bar-box {
+  margin-bottom: 35px;
+}
+.pragressbarActive {
+  margin-left: 5px;
+  color: rgba(255, 255, 255, 1);
+}
+.pragressbarInActive {
+  margin-left: 5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.progressbarBoxActive {
+  position: relative;
+  display: inline-block;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  border-radius: 2px;
+  border: 4px solid white;
+}
+.progressbarBoxActive::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 2px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 11.2px;
+  height: 11.2px;
+  border: 4;
+}
+.progressbarBoxInActive {
+  position: relative;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  border: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.progressbarLineActive {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+}
+
+.progressbarLineActive::before {
+  content: "";
+  position: absolute;
+  bottom: -65%;
+  left: 50%;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  background-color: white;
+  width: 8px;
+  height: 15px;
+}
+.progressbarLineInActive {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+}
+
+.progressbarLineInActive::before {
+  content: "";
+  position: absolute;
+  bottom: -65%;
+  left: 50%;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 8px;
+  height: 15px;
+}
+.progressbarLineInSecActive {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+}
+
+.progressbarLineInSecActive::before {
+  content: "";
+  position: absolute;
+  bottom: -125%;
+  left: 50%;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 8px;
+  height: 15px;
+}
+.progressbarLineSecActive {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+}
+
+.progressbarLineSecActive::before {
+  content: "";
+  position: absolute;
+  bottom: -125%;
+  left: 50%;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  background-color: white;
+  width: 8px;
+  height: 15px;
+}
+/* slider */
+.css-eg0mwd-MuiSlider-thumb {
+  border-radius: 0 !important;
+}
+
+.investment_preferences h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #a4aeb4;
+}
