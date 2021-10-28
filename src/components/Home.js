@@ -53,7 +53,7 @@ const Home = () => {
           ></div>
           <div className="row no-gutters">
             <div className="col-xl-5 col-12 main_page-box-left d-flex flex-column justify-content-evenly align-items-center position-relative">
-              <div className="title">
+              <div className="title mt-4 mb-4">
                 <h4 className="MontserExtraBold">
                   <span className="title-left">UNITED </span>
                   <span className="title-right">PROPERTIES</span>

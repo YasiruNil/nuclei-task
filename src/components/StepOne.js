@@ -154,7 +154,7 @@ const StepOne = ({
       </section>
 
       <div className="row p-xl-5 p-4 align-items-center justify-content-center">
-        <div className="col-xl-5 col-lg-4  col-12 text-center mb-3">
+        <div className="col-xl-5 col-lg-4  col-12 text-center mb-lg-0 mb-3">
           <a href="#/" className="back_home MontserSemiBold">
             <span>
               <ArrowLeft arrowsize="step_count-link-arrow-left" />
