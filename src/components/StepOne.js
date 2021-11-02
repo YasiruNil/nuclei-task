@@ -113,7 +113,7 @@ const StepOne = ({
                   onChange={(event, newValue) => {
                     setFieldsStepOne({
                       ...fieldsStepOne,
-                      country: newValue.name,
+                      country: newValue ? newValue.name : "",
                     });
                   }}
                   getOptionLabel={(option) => option.name}
